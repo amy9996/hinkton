@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .text-content {
+      flex: 1 1 60%;
+      min-width: 300px;
+      padding-left: 200px;
+      box-sizing: border-box;
+    }
+
+    .text-content h1 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .text-content h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .text-content p, .text-content li {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .text-content ul {
+      padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    .image-section {
+      flex: 1 1 35%;
+      min-width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      transform: translateX(0px);
+    }
+
+    .image-section img {
+      width: 45%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .image-caption {
+      font-size: 14px;
+      text-align: center;
+      color: #555;
+    }
+
+    .table-section {
+      margin-top: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #e6f4e8;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-section img {
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-content">
+      <h1><strong><b>Design</b></strong></h1>
+  <ul>
+        <li>Bio-INTS is a cyclic activated sludge composite system comprising:</li>
+      </ul>
+      <h2>• A low-dissolved-oxygen (DO) SND reactor for simultaneous nitrification and denitrification  </h2>
+      <ul>
+        <li>This reactor integrates the Retro-X Aeration Technology, featuring a self-cleaning function that ensures long-term stable and energy-efficient aeration operation. Its design allows for maintenance and replacement with system operating normally, significantly reducing operational complexity.</li>
+      </ul>
+      <h2>• A hybrid biochemical ALT reactor for enhanced pollutant degradation</h2>
+      <ul>
+        <li>The ALT reactor is also an adjustable-capacity module that can be scaled based on project-specific requirements. Typically, the ALT reactor occupies only one-fourth the footprint of the SND reactor while significantly enhancing the system’s capacity to handle BOD and ammonia nitrogen removal. This design enables the system to meet elevated treatment capacity demands without compromising efficiency.</li>
+      </ul>
+      <h2>A compact integrated clarifier for efficient solid-liquid separation and supernatant discharge</h2>
+      <ul>
+        <li>It simplifies system architecture by eliminating internal sludge recirculation loops and instead employs a dedicated external circulation system to return activated sludge to biochemical reactors. It streamlines equipment configuration and reduce energy consumption.</li>
+      </ul>
+    </div>
+
+    <div class="image-section">
+      <img src="https://ueeshop.ly200-cdn.com/u_file/UPBE/UPBE662/2505/30/photo/Design.png" alt="MBBR Media">
+    </div>
+  </div>
+</body>
+</html>
